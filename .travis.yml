@@ -5,7 +5,7 @@ before_install:
 
 script:
   - pwd
-  - export PATH=$PATH:$HOME/PhilG/nestopia/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
+  - export PATH=$PATH:$HOME/build/PhilG/nestopia/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
   - export CC=arm-linux-gnueabihf-gcc
   - export CXX=arm-linux-gnueabihf-g++
   - cd libretro
