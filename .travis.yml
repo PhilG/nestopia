@@ -12,3 +12,4 @@ script:
   - export CXX=arm-linux-gnueabihf-g++
   - cd libretro
   - make
+  - ls | grep .so
