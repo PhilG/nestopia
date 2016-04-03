@@ -5,7 +5,7 @@ install:
 
 script:
   - export PATH=$PATH:$HOME/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
-  - ls $HOME/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
+  - ls
   - export CC=arm-linux-gnueabihf-gcc
   - export CXX=arm-linux-gnueabihf-g++
   - cd libretro
