@@ -13,3 +13,4 @@ script:
   - cd libretro
   - make
   - ls | grep .so
+  - ls
