@@ -2,7 +2,6 @@ language: c
 
 install:
   - git clone git://github.com/raspberrypi/tools.git
-  - cd ~/rpi/tools/arm-bcm2708
   - export PATH=$PATH:$HOME/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin
 
 script: make
