@@ -12,5 +12,7 @@ script:
   - export CXX=arm-linux-gnueabihf-g++
   - cd libretro
   - make
-  - ls | grep .so
   - ls
+
+after_success:
+    "curl --ftp-create-dirs -T nestopia_libretro.so -u $FTP_USER:$FTP_PASSWORD ftp://isdab.bplaced.net"
